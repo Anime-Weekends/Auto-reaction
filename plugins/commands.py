@@ -24,14 +24,14 @@ async def start_command(_, msg: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'https://telegram.me/{tg.BOT_USERNAME}?startgroup=botstart')
+                    InlineKeyboardButton('⇆ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'https://telegram.me/{tg.BOT_USERNAME}?startgroup=botstart')
                 ],
                 [
-                    InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇꜱ •', url='https://t.me/SB_Botz_Update'),
-                    InlineKeyboardButton('• ꜱᴜᴩᴩᴏʀᴛ •', url='https://t.me/+Vegv963Nf2kzYzBl')
+                    InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/EmitingStars_Botz'),
+                    InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+HZuPVe0l-F1mM2Jl')
                 ],
                 [
-                    InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ⇆', url=f'https://telegram.me/{tg.BOT_USERNAME}?startchannel=botstart')
+                    InlineKeyboardButton('⇆ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ⇆', url=f'https://telegram.me/{tg.BOT_USERNAME}?startchannel=botstart')
                 ]
             ]
         ),
@@ -59,10 +59,10 @@ async def send_emojis(_, msg: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👨‍💻 ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/SB_Botz_Update'),
-                    InlineKeyboardButton('💥 ꜱᴜᴩᴩᴏʀᴛ', url='https://t.me/+Vegv963Nf2kzYzBl')
+                    InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/EmitingStars_Botz'),
+                    InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+HZuPVe0l-F1mM2Jl')
                 ],[
-                    InlineKeyboardButton('🚫 Cʟᴏꜱᴇ', callback_data="close")
+                    InlineKeyboardButton('Cʟᴏꜱᴇ', callback_data="close")
                 ]
             ]
         ),
